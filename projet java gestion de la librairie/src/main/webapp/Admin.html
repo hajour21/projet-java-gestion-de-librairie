@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Book App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Book's App</h1>
+<h3>Welcome App'admin</h3>
+ <a href="/projet/Login.html">Log Out</a> 
+ <span>
+ <h4>New Book</h4>
+ <a href="/projet/MyBooks.html">My Books</a>
+ <a href="/projet/books.html"> All Books</a>
+</span>
+<form  action="/Add" >
+<label for="title"><i>Title :</i></label>
+  <input type="text"  name="title"><br>
+  <label for="isbn"><i>ISBN :</i></label>
+  <input type="text"  name="isbn"><br>
+  <label for="author"><i>AUTHOR :</i></label>
+  <input type="text"  name="author"><br>
+  <label for="language"><i>Language :</i></label>
+	<input list="languages" name="language">
+<datalist id="languages"> 
+    <option value="English">
+    <option value="Francais">
+    <option value="Arabe">
+  </datalist><br>
+  <label for="pubyear"><i>Publish Year :</i></label>
+	<input list="pubyears" name="pubyear">
+<datalist id="pubyears"> 
+    <option value="2020">
+    <option value="2019">
+    <option value="2018">
+  </datalist><br>
+  <label for="abstract"><i>Abstract :</i></label>
+  <input type="text"  name="abstract" size="250"><br>
+  <input type="submit"  value="Valider" ><br>
+  
+  
+
+
+</form>
+</body>
+</html>

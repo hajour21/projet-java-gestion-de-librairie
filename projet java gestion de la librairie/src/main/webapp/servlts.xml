@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+<servlet-name>CreationCompte1</servlet-name>
+<servlet-class>servlets.CreationCompte1</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name> CreationCompte1</servlet-name>
+<url-pattern>/CreationCompte1</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>Addbook</servlet-name>
+<servlet-class>servlets.Addbook</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name> Addbook</servlet-name>
+<url-pattern>/Addbook</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>Bibliotheque</servlet-name>
+<servlet-class>servlets.Bibliotheque</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name> Bibliotheque</servlet-name>
+<url-pattern>/Bibliotheque</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>Deconnexion</servlet-name>
+<servlet-class>servlets.Deconnexion</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>Deconnexion</servlet-name>
+<url-pattern>/Deconnexion</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>Mybooks</servlet-name>
+<servlet-class>servlets.Mybooks</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>Mybooks</servlet-name>
+<url-pattern>/Mybooks</url-pattern>
+</servlet-mapping>
+<display-name>index</display-name>
+	<welcome-file-list>
+		<welcome-file>/index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
